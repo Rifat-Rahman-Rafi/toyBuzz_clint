@@ -80,9 +80,14 @@ const MyToy = () => {
             <div className="overflow-x-auto w-full text-right ">
                 <div className="mb-4 my-10">
                    
-              
+                    <div>
+                                <span className="ml-10 text-[#36D399] font-bold">Sort by price</span>
+                                <button style={{background:"#36D399"}} className="btn btn-outline  text-white ml-4 w-40" onClick={sortByAscending}>Ascending</button>
+                                <button style={{background:"#36D399"}} className="btn btn-outline text-white ml-4 w-40" onClick={sortByDescending}>Desscending</button>
+                            </div>
+                </div>
                 <table className="table w-full mt-10">
-                    {/* head */}
+                  
                     <thead>
                         <tr>
                             <th></th>
