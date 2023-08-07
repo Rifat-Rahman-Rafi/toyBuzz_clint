@@ -8,7 +8,7 @@ import Typography from '@mui/material/Typography';
 import { Button, CardActionArea, CardActions } from '@mui/material';
 const Blog = () => {
     return (
-       <Container style={{ justifyContent: 'center', marginTop:60 }}>
+       <Container style={{ justifyContent: 'center', marginTop:60,marginBottom:60 }}>
         
       
     <Card className='mt-5' sx={{ maxWidth: 1500 }}>

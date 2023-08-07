@@ -3,7 +3,6 @@ import { AuthContext } from "../../../providers/AuthProvider";
 import { useContext, useState } from "react";
 import ActiveLinks from "../../../ActiveLinks/ActiveLinks";
 
-
 const Navbar = () => {
     const { user, logOut } = useContext(AuthContext);
     const [isHovered, setIsHovered] = useState(false);

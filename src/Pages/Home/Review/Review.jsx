@@ -36,7 +36,7 @@ const Review = () => {
                     data-aos-easing="ease-in-sine"
                     data-aos-duration="500">
                    <h1 className='font-semibold text-3xl text-[#36D399]'>MD Anisur Rahman</h1>
-                    <p className='w-4/5'>Get peak performance out of your favorite models - Spektrum Smart Technology is about offering a higher connection to your hobby. Its a connection that puts you in complete control, makes you more aware and more confident about the capability of your equipment—all while making vital components of your model easier to use than ever.</p>
+                    <p className='w-4/5'>I was impressed by the wide range of car models available on the website, and the detailed information provided for each listing was very helpful in making my decision. The high-quality images and descriptions gave me a clear idea of what to expect.The purchasing process was smooth and secure. The website offered various payment options, and the checkout process was straightforward. The confirmation email provided all the necessary details about my purchase.</p>
                     
                 </div>
             </div>
