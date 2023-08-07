@@ -29,9 +29,10 @@ import { useState } from "react";
                          <header className="px-5 py-4 border-b border-gray-100 flex justify-between items-center">
                              <h2 className="font-semibold text-gray-800 w-1/2">All Toys</h2>
                              <form onSubmit={handleSearch} className="input-group flex justify-end">
-                                 <input type="text" name="search" placeholder="Search by name" className="input input-bordered" />
-                                 <button className="btn btn-square">
-                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
+                                 <input  type="text" name="search" placeholder="Search by name" className="input input-bordered" />
+                                 <button style={{background:"#36D399"}} className="btn btn-square">
+                                     <svg style={{color:"white"}} xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                                     ><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
                                  </button>
                              </form>
                          </header>

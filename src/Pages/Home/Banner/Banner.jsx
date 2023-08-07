@@ -1,12 +1,14 @@
 // eslint-disable-next-line no-unused-vars
+import { Container } from '@mui/material';
 import React from 'react';
 
 const Banner = () => {
   return (
-    <div className="carousel w-full" style={{height:"500px"}}>
+
+<div className="carousel w-full" style={{height:"550px"}}>
     <div id="slide1" className="carousel-item relative w-full">
       <img
-        src="https://i.ibb.co/Zzj2bLZ/best-burger-restaurants-sydney.jpg"
+        src="https://i.ibb.co/HFqBZGv/Lamborghini-facts-cover-051120210230.jpg"
         className="w-full carousel-img"
         alt="Slide 1"
       />
@@ -17,7 +19,7 @@ const Banner = () => {
     </div>
     <div id="slide2" className="carousel-item relative w-full">
       <img
-        src="https://i.ibb.co/Zzj2bLZ/best-burger-restaurants-sydney.jpg"
+        src="https://i.ibb.co/L9GKSTT/Homepage-Services-scaled-e1624256941986.jpg"
         className="w-full carousel-img"
         alt="Slide 2"
       />
@@ -28,7 +30,7 @@ const Banner = () => {
     </div>
     <div id="slide3" className="carousel-item relative w-full">
       <img
-        src="https://i.ibb.co/Zzj2bLZ/best-burger-restaurants-sydney.jpg"
+        src="https://i.ibb.co/Hz8jzL0/2022-ford-f-series-super-duty.jpg"
         className="w-full carousel-img"
         alt="Slide 3"
       />
@@ -38,6 +40,7 @@ const Banner = () => {
       </div>
     </div>
   </div>
+
   );
 };
 
