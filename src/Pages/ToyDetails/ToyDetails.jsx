@@ -1,5 +1,4 @@
 import { Link, useLoaderData } from "react-router-dom";
-
 import Rating from "react-rating";
 import { FaRegStar, FaStar } from "react-icons/fa";
 
@@ -36,7 +35,7 @@ const ToyDetails = () => {
                     /></div>
                     </div>
 
-                    <Link to='/allToys' className="mb-8  btn  bg-[#36D399] ">  Previous </Link>
+                    <Link style={{color:"white"}} to='/allToys' className="mb-8  btn  bg-[#36D399] ">  Previous </Link>
                 </div>
 
 

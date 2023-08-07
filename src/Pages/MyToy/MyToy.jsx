@@ -8,8 +8,7 @@ const MyToy = () => {
   
     const { user } = useContext(AuthContext);
     const [toys, setToys] = useState([]);
-    const [sortField, setSortField] = useState('price');
-    const [sortOrder, setSortOrder] = useState('desc');
+
 
     useEffect(() => {
      
@@ -50,13 +49,6 @@ const MyToy = () => {
             }
         });
     };
-
-    // const handleSortChange = event => {
-    //     const value = event.target.value;
-    //     const [field, order] = value.split('-');
-    //     setSortOrder(order);
-    //     setSortField(field);
-    // };
 
 
     const sortByAscending = () => {

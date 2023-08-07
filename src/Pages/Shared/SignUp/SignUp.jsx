@@ -3,8 +3,6 @@ import { useContext, useState } from "react";
 import { AuthContext } from "../../../providers/AuthProvider";
 import { updateProfile } from "firebase/auth";
 import { Link } from "react-router-dom";
-
-
 const SignUp = () => {
 
     const [error, setError] = useState('');

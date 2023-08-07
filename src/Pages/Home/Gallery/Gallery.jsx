@@ -8,8 +8,6 @@ const Gallery = () => {
             
             <div className="grid grid-cols-2 md:grid-cols-3 gap-4 p-4 md:p-0 ">
             
-            
-            
             <div className="card w-96 bg-base-100 shadow-xl">
   <figure><img src="https://i.ibb.co/LkB6GwX/download-5.jpg?fbclid=IwAR0Y8MjVzPg-9JKaecpt-u3OYD5mH3LDq85-ojXrcN4jUEvjJMLqGuT0iMY" alt="Shoes" /></figure>
   <div className="card-body">

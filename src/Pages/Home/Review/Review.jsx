@@ -1,7 +1,5 @@
 import React from 'react';
 
-
-
 const Review = () => {
     return (
         <div className='mt-52 mb-32 max-w-screen-xl mx-auto space-y-20 px-4'>
