@@ -79,13 +79,8 @@ const MyToy = () => {
             </div>
             <div className="overflow-x-auto w-full text-right ">
                 <div className="mb-4 my-10">
-                    <label className="mr-2 text-xl font-medium">Sort By:</label>
-                    <div>
-                                <span className="ml-10 text-red-700 font-bold">Sort by price</span>
-                                <button className="btn btn-outline text-gray-500 ml-4 w-40" onClick={sortByAscending}>Ascending</button>
-                                <button className="btn btn-outline text-gray-500 ml-4 w-40" onClick={sortByDescending}>Desscending</button>
-                            </div>
-                </div>
+                   
+              
                 <table className="table w-full mt-10">
                     {/* head */}
                     <thead>
