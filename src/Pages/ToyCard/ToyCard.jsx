@@ -30,7 +30,7 @@ const ToyCard = ({ toy }) => {
         <div className="container">
             
             <div className="card card-side bg-base-100 shadow-xl grid md:grid-cols-2 items-center justify-center mb-4">
-                <figure className="w-full"><img className="w-full h-64 rounded-lg" src={toy.img} alt="Movie" /></figure>
+               <img className="w-full  rounded-lg" src={toy.img} alt="Movie" />
                 <div className="card-body">
                     <h2 className="card-title">{toy.name}</h2>
                     <p>Price: ${toy.price}</p>
